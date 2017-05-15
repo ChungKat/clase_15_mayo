@@ -14,8 +14,7 @@ for($a = 0; $a < $total = count($csv); $a++){?>
     <hr>
     <div class="col-xs-5 col-sm-3 col-md-2"><img src="<?php echo $csv[$a]['Imagen'];?>" class="img-responsive"></div>
     <div class="col-xs-7 col-sm-9 col-md-10">
-      <h3><?php echo($a+1);?>. <?php echo $csv[$a]['Nombre'];?></h3>
-      <h4><?php echo $csv[$a]['titulo'];?> </h4>
+      <h3><?php echo $csv[$a]['titulo'];?> </h3>
       <p><?php echo $csv[$a]['texto'];?> </p>
       <p><?php echo $csv[$a]['apa'];?> </p>
       <img src="<?php echo $csv[$a]['images'];?>" class="img-responsive">
